@@ -46,14 +46,12 @@ while True:
             ran = input("출력할 구구단을 아래 형식으로 입력하세요 (예: 2, 2~5)\n")
             if "~" in ran:
                 # 범위가 지정된 경우
-                ran = list(map(int, ran.split("~")))
+                n1, n2 = map(int, ran.split("~"))
                 # 범위가 올바른지 확인
-                if not (2 <= ran[0] <= 9) or not (2 <= ran[1] <= 9):
+                if not (2 <= n1 <= 9) or not (2 <= n2 <= 9):
                     range_flag = False
                 else:
                     range_flag = True
-                    n1 = ran[0]
-                    n2 = ran[1]
                     mul(n1, n2)
             else:
                 # 범위가 지정되지 않은 경우
