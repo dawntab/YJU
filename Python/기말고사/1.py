@@ -33,4 +33,4 @@ for j in range(len(count_num_list)):
 print("Dice Roll Frequency Histogram:")
 for k in range(len(count_num_list)):
     star = int((count_num_list[k] / random_number_max) * 10)
-    print(f"{k + 1}: {"*" * star} ({count_num_list[k]} times, {format((count_num_list[k] / user_input) * 100)}%)") #기록한 수치를 시각화 + 계산하여 사용자에게 보여줌
+    print(f"{k + 1}: {'*' * star} ({count_num_list[k]} times, {format((count_num_list[k] / user_input) * 100)}%)") #기록한 수치를 시각화 + 계산하여 사용자에게 보여줌
