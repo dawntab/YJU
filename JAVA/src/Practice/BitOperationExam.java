@@ -1,3 +1,5 @@
+package Practice;
+
 public class BitOperationExam {
     public static void main(String[] args) {
         int a = 6;

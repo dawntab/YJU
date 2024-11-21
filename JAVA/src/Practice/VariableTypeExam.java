@@ -1,3 +1,5 @@
+package Practice;
+
 public class VariableTypeExam {
     public static void main(String[] args) {
 

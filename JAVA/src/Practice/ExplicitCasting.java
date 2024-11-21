@@ -1,3 +1,5 @@
+package Practice;
+
 public class ExplicitCasting {
     public static void main(String[] args) {
         double realNum = 9.99;

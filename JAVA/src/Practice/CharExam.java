@@ -1,3 +1,5 @@
+package Practice;
+
 public class CharExam {
     public static void main(String[] args) {
         char letter = 'A';

@@ -1,3 +1,5 @@
+package Practice;
+
 public class ImplicitCasting {
     public static void main(String[] args) {
         int num = 100;

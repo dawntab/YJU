@@ -1,3 +1,5 @@
+package Practice;
+
 public class ExponentExam {
     public static void main(String[] args) {
         double largeNumber = 1.2e6;
